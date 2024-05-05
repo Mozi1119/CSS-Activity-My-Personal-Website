@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+}
+
+.Header-outline {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+    text-align: center; /* Align the content to the center */
+    margin-bottom: -10px; /* Adjust as needed to overlap the break line */
+    background-color: rgba(17, 145, 237, 0.9); /* Adjust background color and opacity */
+}
+
+.Header-outline ul {
+    /* Reset default margin and padding of the ul element */
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.Header-outline li {  
+    display: inline-block; /* Use inline-block for inline layout with block properties */
+    margin-right: 20px;
+}
+
+.Header-outline li:last-child {
+    margin-right: 0; /* Remove right margin for the last li element */
+}
+
+.Header-outline a {
+    color: #000; /* Adjust link color */
+    text-decoration: none; /* Remove underline */
+}
+    
+
+
+.font-sample-H1 {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Jersey 15", sans-serif;
+    font-size: 25px;
+    font-weight:normal;
+    font-style: italic;
+    background-color:;
+    color: rgb(31, 222, 202);
+    line-height: 2.5;
+}
+
+.font-sample-Name {
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Mukta", sans-serif;
+    font-size: 30px;
+    font-weight:normal;
+    font-style: italic;
+    background-color:;
+    color: rgb(155, 193, 174);
+    
+}
+
+.font-sample-Credentials {
+    letter-spacing: 1px;
+    line-height: 1;
+    background-color:;
+    text-indent: 0px;
+    color: azure;
+    font-size: medium;
+}
+
+.font-sample-Quotation {
+    letter-spacing: 1px;
+    line-height: 2;
+    background-color:;
+    text-indent: 0px;
+    color: rgb(197, 45, 45);
+    font-size: medium;
+}
+
+.font-sample-AboutMe-details {
+    letter-spacing: normal;
+    color: aqua;
+
+}
+
+.font-sample-Degree-and-Job-Title {
+    color:azure
+
+}
+
+.font-sample-Address-Company {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    
+}
+  
+
+.bg-Main {
+    background-color:#f2b6aa;
+
+    /* gradient background */
+
+    background: rgb(1, 46, 53);
+    background: linear-gradient(132deg, rgb(2, 2, 0) 6%, rgb(0, 3, 103) 65%, rgb(1, 29, 16) 100%);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; 
+    background-attachment: fixed ;
+    margin-top: -20px;
+  }
+
+.bg1 {
+    background-color:#f2b6aa;
+}
+
+
+.text-sample-section {
+    text-align: center;
+    text-transform: ;
+    text-decoration: ;
+    font-size: 18px;
+   
+}
+
+.text-sample-section table {
+    margin: 0 auto; /* Center the table horizontally */
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #faf5f5;
+
+    
+}
+
+.text-sample-table {
+    text-align: center; /* Align form elements in the center */
+}
+
+.text-sample-form {
+    text-align: center; /* Align form elements in the center */
+}
+
+.text-sample-form form {
+    display: inline-block; /* Ensure the form does not take the full width */
+    text-align: left; /* Reset text alignment inside the form */
+}
+
+.text-sample-form label {
+    color: #ffffff; /* Change font color for labels */
+}
+
+.text-sample-form input[type="text"] {
+    color: rgb(0, 0, 0); /* Change font color for text input */
+}
+
+.text-sample-form input[type="number"] {
+    color: rgb(0, 0, 0); /* Change font color for number input */
+}
+
+.text-sample-form input[type="email"] {
+    color: rgb(0, 0, 0); /* Change font color for email input */
+}
+
+.text-sample-form textarea {
+    color: rgb(0, 0, 0); /* Change font color for textarea */
+}
+
+.text-sample-form select {
+    color: rgb(0, 0, 0); /* Change font color for select */
+}
+
+.text-sample-form button {
+    color: rgb(8, 8, 8); /* Change font color for button */
+}
+
+
+.Footer-outline-social a {
+    text-decoration: none; /* Remove underline */
+    color: #f7f7f7; /* Change font color */
+}
+
+.Footer-outline-social ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    
+}
+
+.Footer-outline-social ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 10px; /* Add spacing between list items */
+    
+}
+
+.Footer-outline-social ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+    padding-bottom: 50px;
+    
+}
